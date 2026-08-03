@@ -1,4 +1,4 @@
-# Official Opoha plugin template (v0.7)
+# Official Opoha plugin template (v1.0)
 
 Canonical scaffold used by `opoha generate plugin`. Matches ADR-0003 / `@opoha/plugin-sdk`
 contract shape. Runtime reference: `@opoha/plugin-sample` (loader + registry smoke).
@@ -24,6 +24,7 @@ opoha generate plugin my-widget --link   # file: @opoha/plugin-sdk (monorepo)
 | `tsconfig.json` / `tsconfig.build.json` | Typecheck + emit |
 | `vitest.config.ts` | Unit tests |
 | `pnpm-workspace.yaml` | Local `file:` SDK link |
+| `.github/workflows/ci.yml` | Author CI template (typecheck → test → build) |
 | `.gitignore` / `README.md` | DX |
 
 Generated plugins are **standalone** (no monorepo `@opoha/typescript-config` / `@opoha/vitest-config`
@@ -31,9 +32,9 @@ file deps) so authors can build outside the Opoha sibling workspace.
 
 ## Rules
 
-- Contract version must match `@opoha/plugin-sdk` (`0.1` for v0.7)
+- Contract version must match `@opoha/plugin-sdk` (`0.1` through package `1.0.0`)
 - Do not import `@opoha/core` from plugins
 - Plugin-owned TypeORM only (ADR-0010 / ADR-0005) — never mutate core tables
 - Register GraphQL / admin / listeners via `PluginContext` in `boot`
 
-See also: [storefront-template.md](./storefront-template.md).
+See also: [plugin-author-guide.md](./plugin-author-guide.md), [plugin-ci-template.md](./plugin-ci-template.md), [storefront-template.md](./storefront-template.md).

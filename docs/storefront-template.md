@@ -23,6 +23,7 @@ create-opoha my-shop --template storefront
 | `src/app/layout.tsx` | Root layout |
 | `.env.example` | `NEXT_PUBLIC_OPOHA_GRAPHQL_URL` |
 | `next.config.mjs` / `tsconfig.json` | Next.js + TypeScript |
+| `pnpm-workspace.yaml` | `allowBuilds: sharp` — Next.js image optimization needs sharp's install script |
 
 ## Develop
 

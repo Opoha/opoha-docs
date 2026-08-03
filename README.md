@@ -1,0 +1,17 @@
+# Opoha Docs
+
+Official technical documentation site for Opoha.
+
+## Purpose
+
+Publish getting started, architecture, plugin development, API reference, and migration guides for store, plugin, and enterprise developers.
+
+## Boundaries
+
+- Documentation only — not the marketing website (`opoha-website`)
+- Does not ship commerce runtime or plugins
+- Content authority for product docs; architecture source of truth remains `opoha-workspace` until published here
+
+## Status
+
+Scaffold placeholder — site tooling arrives with DX / docs phases.

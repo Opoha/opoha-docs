@@ -71,6 +71,7 @@ For production hardening expectations, see [deployment.md](./deployment.md).
 2. [Plugin author guide](./plugin-author-guide.md) — extend with plugins  
 3. [Storefront template](./storefront-template.md) — Next.js against GraphQL  
 4. [API reference](./api-reference.md) — SDK + GraphQL pointers  
+5. [Upgrade from v0.9](./upgrade-from-v0.9.md) — migrate an existing app to 1.0  
 
 ## Related
 

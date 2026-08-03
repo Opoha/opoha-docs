@@ -18,6 +18,7 @@ Publish getting started, deployment, plugin development, API reference pointers,
 |---------|-----|
 | Install | [docs/getting-started.md](./docs/getting-started.md) |
 | Deploy | [docs/deployment.md](./docs/deployment.md) |
+| Upgrade (v0.9 → v1.0) | [docs/upgrade-from-v0.9.md](./docs/upgrade-from-v0.9.md) |
 | Plugin author | [docs/plugin-author-guide.md](./docs/plugin-author-guide.md) |
 | Storefront (Next.js) | [docs/storefront-template.md](./docs/storefront-template.md) |
 | API reference pointers | [docs/api-reference.md](./docs/api-reference.md) |

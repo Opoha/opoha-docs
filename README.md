@@ -19,3 +19,4 @@ Scaffold placeholder — site tooling arrives with DX / docs phases.
 ## Stubs
 
 - [Analytics storefront hooks (GA / Meta)](./docs/analytics-storefront-hooks.md) — Phase 4 F-03
+- [Marketplace flow (catalog → search → install)](./docs/marketplace-flow.md) — Phase 6 C-01

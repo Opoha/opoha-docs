@@ -15,3 +15,7 @@ Publish getting started, architecture, plugin development, API reference, and mi
 ## Status
 
 Scaffold placeholder — site tooling arrives with DX / docs phases.
+
+## Stubs
+
+- [Analytics storefront hooks (GA / Meta)](./docs/analytics-storefront-hooks.md) — Phase 4 F-03

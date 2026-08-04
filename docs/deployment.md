@@ -61,7 +61,7 @@ NODE_ENV=production pnpm exec opoha doctor
 
 - Pin `@opoha/plugin-sdk` compatible range (`contractVersion` / peer dep)  
 - Prefer published plugin packages or controlled `file:` installs  
-- Run compatibility CI for official plugins (Phase E) before upgrading core  
+- Run compatibility CI for official plugins before upgrading core  
 
 ## Related
 

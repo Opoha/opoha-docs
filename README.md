@@ -17,6 +17,7 @@ Publish getting started, deployment, plugin development, API reference pointers,
 | Journey | Doc |
 |---------|-----|
 | Install | [docs/getting-started.md](./docs/getting-started.md) |
+| Using plugins | [docs/using-plugins.md](./docs/using-plugins.md) |
 | Deploy | [docs/deployment.md](./docs/deployment.md) |
 | Upgrade (v0.9 → v1.0) | [docs/upgrade-from-v0.9.md](./docs/upgrade-from-v0.9.md) |
 | Plugin author | [docs/plugin-author-guide.md](./docs/plugin-author-guide.md) |

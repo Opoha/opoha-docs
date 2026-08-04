@@ -69,11 +69,12 @@ For production hardening expectations, see [deployment.md](./deployment.md).
 
 ## Next steps
 
-1. [Deployment](./deployment.md) — production env + doctor checklist  
-2. [Plugin author guide](./plugin-author-guide.md) — extend with plugins  
-3. [Storefront template](./storefront-template.md) — Next.js against GraphQL  
-4. [API reference](./api-reference.md) — SDK + GraphQL pointers  
-5. [Upgrade from v0.9](./upgrade-from-v0.9.md) — migrate an existing app to 1.0  
+1. [Using plugins](./using-plugins.md) — enable official plugins and develop locally  
+2. [Deployment](./deployment.md) — production env + doctor checklist  
+3. [Plugin author guide](./plugin-author-guide.md) — extend with plugins  
+4. [Storefront template](./storefront-template.md) — Next.js against GraphQL  
+5. [API reference](./api-reference.md) — SDK + GraphQL pointers  
+6. [Upgrade from v0.9](./upgrade-from-v0.9.md) — migrate an existing app to 1.0  
 
 ## Related
 

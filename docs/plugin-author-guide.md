@@ -55,12 +55,14 @@ pnpm test
 pnpm typecheck
 ```
 
-Install into an app:
+Install into an app (updates `opoha.config.json`):
 
 ```bash
 opoha plugin install .
-# or configure OPOHA_PLUGINS / OPOHA_PLUGINS_PATH
+# or add a path / package name to opoha.config.json "plugins"
 ```
+
+See [Using plugins](./using-plugins.md).
 
 ## CI template
 
@@ -75,6 +77,7 @@ Generated plugins include `.github/workflows/ci.yml` (install → typecheck → 
 
 ## Related
 
+- [Using plugins](./using-plugins.md)  
 - [Plugin template](./plugin-template.md)  
 - [API reference](./api-reference.md)  
 - `@opoha/plugin-sdk` README  

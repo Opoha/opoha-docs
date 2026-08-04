@@ -10,13 +10,13 @@ This is the **documented v1.0 storefront path** (PRD: Next.js minimum). Vue / Re
 ```bash
 opoha generate storefront my-shop
 # or
-create-opoha my-shop --template storefront
+npx @opoha/create-opoha my-shop --template storefront
 # local multi-repo:
-create-opoha my-shop --template storefront --link
+pnpm exec create-opoha my-shop --template storefront --link
 ```
 
 **CLI source of truth:** `@opoha/cli` → `templates/storefront`  
-**create-opoha mirror:** `create-opoha/templates/storefront`  
+**`@opoha/create-opoha` mirror:** `create-opoha/templates/storefront`  
 **Inventory constant:** `OFFICIAL_STOREFRONT_TEMPLATE_FILES`
 
 ## Layout

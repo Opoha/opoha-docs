@@ -21,10 +21,11 @@ pnpm exec create-opoha my-store --link
 cd my-store
 ```
 
-Published packages (when `@opoha/*` are on the registry):
+Published packages:
 
 ```bash
-npx create-opoha my-store
+npx @opoha/create-opoha my-store
+# or: pnpm dlx @opoha/create-opoha my-store
 cd my-store
 ```
 
@@ -34,6 +35,7 @@ If you already have a running Opoha GraphQL API and only need a storefront:
 
 ```bash
 pnpm exec create-opoha my-shop --template storefront --link
+# or: npx @opoha/create-opoha my-shop --template storefront
 # or: opoha generate storefront my-shop
 ```
 
@@ -75,5 +77,5 @@ For production hardening expectations, see [deployment.md](./deployment.md).
 
 ## Related
 
-- `create-opoha` package README  
+- `@opoha/create-opoha` package README  
 - `opoha-core` walking skeleton (`pnpm walking-skeleton`) for automated install→order smoke  

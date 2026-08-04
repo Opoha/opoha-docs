@@ -38,7 +38,7 @@ Storefronts and Admin talk to core **only** through GraphQL (never direct TypeOR
 | `opoha doctor` | [Deployment](./deployment.md) |
 | `opoha generate plugin` | [Plugin template](./plugin-template.md) |
 | `opoha generate storefront` | [Storefront template](./storefront-template.md) |
-| `create-opoha` | [Getting started](./getting-started.md) |
+| `npx @opoha/create-opoha` | [Getting started](./getting-started.md) |
 
 ## Related journeys
 

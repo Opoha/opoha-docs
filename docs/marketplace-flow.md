@@ -52,6 +52,6 @@ Admin badges compare these to the running contract / core version (**display onl
 
 ## Out of scope (v0.7)
 
-- Paid marketplace settlement (Phase 10 — Opoha Cloud)
+- Paid marketplace settlement (Opoha Cloud)
 - Admin one-click install
 - Signed npm provenance

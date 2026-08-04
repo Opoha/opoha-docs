@@ -1,6 +1,6 @@
 # Plugin author CI template
 
-Canonical GitHub Actions workflow shipped with `opoha generate plugin` (Phase 9 D-03).
+Canonical GitHub Actions workflow shipped with `opoha generate plugin`.
 
 **Source of truth:** `opoha-cli/templates/plugin/.github/workflows/ci.yml`
 

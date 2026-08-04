@@ -28,9 +28,9 @@ Publish getting started, deployment, plugin development, API reference pointers,
 - [Plugin template](./docs/plugin-template.md) — `opoha generate plugin`
 - [Plugin CI template](./docs/plugin-ci-template.md) — GitHub Actions for authors
 - [Storefront template](./docs/storefront-template.md) — Next.js App Router + `@opoha/sdk`
-- [Marketplace flow](./docs/marketplace-flow.md) — Phase 6
-- [Analytics storefront hooks](./docs/analytics-storefront-hooks.md) — Phase 4
+- [Marketplace flow](./docs/marketplace-flow.md)
+- [Analytics storefront hooks](./docs/analytics-storefront-hooks.md)
 
 ## Status
 
-Markdown docs site for Phase 9 DX. Full static-site tooling may follow; journey coverage is the v1.0 gate.
+Markdown docs site for developer experience. Full static-site tooling may follow; journey coverage is the v1.0 gate.
